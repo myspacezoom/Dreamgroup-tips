@@ -76,8 +76,16 @@
 		3447699F1B3AA65E00A4EEF0 /* DreamGroup  Tips */ = {
 			isa = PBXGroup;
 			children = (
-				344769A41B3AA65E00A4EEF0 /* AppDelegate.h */,
-				344769A51B3AA65E00A4EEF0 /* AppDelegate.m */,
+				344769CD1B3AA79400A4EEF0 /* Vendors */,
+				344769CC1B3AA78300A4EEF0 /* UserInterface */,
+				344769CB1B3AA77A00A4EEF0 /* Resources */,
+				344769CA1B3AA77300A4EEF0 /* Models */,
+				344769C91B3AA76A00A4EEF0 /* Macro */,
+				344769C81B3AA75D00A4EEF0 /* Helpers */,
+				344769C51B3AA72200A4EEF0 /* Helpers */,
+				344769C41B3AA71500A4EEF0 /* General */,
+				344769C11B3AA6DA00A4EEF0 /* Sections */,
+				344769C01B3AA66B00A4EEF0 /* AppDelegate */,
 				344769A71B3AA65E00A4EEF0 /* Images.xcassets */,
 				344769A91B3AA65E00A4EEF0 /* LaunchScreen.xib */,
 				344769A01B3AA65E00A4EEF0 /* Supporting Files */,
@@ -109,6 +117,102 @@
 				344769B51B3AA65E00A4EEF0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		344769C01B3AA66B00A4EEF0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				344769A41B3AA65E00A4EEF0 /* AppDelegate.h */,
+				344769A51B3AA65E00A4EEF0 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		344769C11B3AA6DA00A4EEF0 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				344769C21B3AA6E300A4EEF0 /* Main */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		344769C21B3AA6E300A4EEF0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		344769C41B3AA71500A4EEF0 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				344769C71B3AA73E00A4EEF0 /* Views */,
+				344769C61B3AA73000A4EEF0 /* Classes */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		344769C51B3AA72200A4EEF0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		344769C61B3AA73000A4EEF0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		344769C71B3AA73E00A4EEF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		344769C81B3AA75D00A4EEF0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		344769C91B3AA76A00A4EEF0 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		344769CA1B3AA77300A4EEF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		344769CB1B3AA77A00A4EEF0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		344769CC1B3AA78300A4EEF0 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		344769CD1B3AA79400A4EEF0 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
