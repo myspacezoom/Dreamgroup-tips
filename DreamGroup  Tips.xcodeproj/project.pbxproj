@@ -130,6 +130,8 @@
 		344769C11B3AA6DA00A4EEF0 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				349A66181B3D35DA00536109 /* Music */,
+				349A66171B3D359800536109 /* Diary */,
 				344769C21B3AA6E300A4EEF0 /* Main */,
 			);
 			name = Sections;
@@ -205,6 +207,20 @@
 			children = (
 			);
 			name = Vendors;
+			sourceTree = "<group>";
+		};
+		349A66171B3D359800536109 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Diary;
+			sourceTree = "<group>";
+		};
+		349A66181B3D35DA00536109 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
