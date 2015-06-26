@@ -82,7 +82,6 @@
 				344769CA1B3AA77300A4EEF0 /* Models */,
 				344769C91B3AA76A00A4EEF0 /* Macro */,
 				344769C81B3AA75D00A4EEF0 /* Helpers */,
-				344769C51B3AA72200A4EEF0 /* Helpers */,
 				344769C41B3AA71500A4EEF0 /* General */,
 				344769C11B3AA6DA00A4EEF0 /* Sections */,
 				344769C01B3AA66B00A4EEF0 /* AppDelegate */,
@@ -150,13 +149,6 @@
 				344769C61B3AA73000A4EEF0 /* Classes */,
 			);
 			name = General;
-			sourceTree = "<group>";
-		};
-		344769C51B3AA72200A4EEF0 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Helpers;
 			sourceTree = "<group>";
 		};
 		344769C61B3AA73000A4EEF0 /* Classes */ = {
@@ -498,6 +490,7 @@
 				344769BC1B3AA65E00A4EEF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		344769BD1B3AA65E00A4EEF0 /* Build configuration list for PBXNativeTarget "DreamGroup  TipsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +499,7 @@
 				344769BF1B3AA65E00A4EEF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
