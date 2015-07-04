@@ -12,6 +12,15 @@
 		344769A81B3AA65E00A4EEF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344769A71B3AA65E00A4EEF0 /* Images.xcassets */; };
 		344769AB1B3AA65E00A4EEF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 344769A91B3AA65E00A4EEF0 /* LaunchScreen.xib */; };
 		344769B71B3AA65E00A4EEF0 /* DreamGroup__TipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 344769B61B3AA65E00A4EEF0 /* DreamGroup__TipsTests.m */; };
+		346F46AE1B47D4B000513E90 /* DEMOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 346F46AD1B47D4B000513E90 /* DEMOAppDelegate.m */; };
+		346F46B71B47D4FC00513E90 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 346F46B21B47D4FC00513E90 /* RECommonFunctions.m */; };
+		346F46B81B47D4FC00513E90 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 346F46B41B47D4FC00513E90 /* RESideMenu.m */; };
+		346F46B91B47D4FC00513E90 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 346F46B61B47D4FC00513E90 /* UIViewController+RESideMenu.m */; };
+		346F46C41B47D59400513E90 /* 生活.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 346F46BB1B47D59400513E90 /* 生活.jpg */; };
+		346F46C51B47D59400513E90 /* DEMOFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346F46BD1B47D59400513E90 /* DEMOFirstViewController.m */; };
+		346F46C61B47D59400513E90 /* DEMOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346F46BF1B47D59400513E90 /* DEMOSecondViewController.m */; };
+		346F46C71B47D59400513E90 /* DEMOLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346F46C11B47D59400513E90 /* DEMOLeftMenuViewController.m */; };
+		346F46C81B47D59400513E90 /* DEMORightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346F46C31B47D59400513E90 /* DEMORightMenuViewController.m */; };
 		34C90C2F1B47BC8300F6B982 /* a1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 34C90C0B1B47BC8300F6B982 /* a1.tiff */; };
 		34C90C301B47BC8300F6B982 /* a2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 34C90C0C1B47BC8300F6B982 /* a2.tiff */; };
 		34C90C311B47BC8300F6B982 /* a3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 34C90C0D1B47BC8300F6B982 /* a3.tiff */; };
@@ -123,6 +132,24 @@
 		344769B01B3AA65E00A4EEF0 /* DreamGroup  TipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DreamGroup  TipsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		344769B51B3AA65E00A4EEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		344769B61B3AA65E00A4EEF0 /* DreamGroup__TipsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamGroup__TipsTests.m; sourceTree = "<group>"; };
+		346F46AC1B47D4B000513E90 /* DEMOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOAppDelegate.h; sourceTree = "<group>"; };
+		346F46AD1B47D4B000513E90 /* DEMOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOAppDelegate.m; sourceTree = "<group>"; };
+		346F46B11B47D4FC00513E90 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		346F46B21B47D4FC00513E90 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		346F46B31B47D4FC00513E90 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		346F46B41B47D4FC00513E90 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		346F46B51B47D4FC00513E90 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		346F46B61B47D4FC00513E90 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		346F46BB1B47D59400513E90 /* 生活.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "生活.jpg"; sourceTree = "<group>"; };
+		346F46BC1B47D59400513E90 /* DEMOFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOFirstViewController.h; sourceTree = "<group>"; };
+		346F46BD1B47D59400513E90 /* DEMOFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOFirstViewController.m; sourceTree = "<group>"; };
+		346F46BE1B47D59400513E90 /* DEMOSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOSecondViewController.h; sourceTree = "<group>"; };
+		346F46BF1B47D59400513E90 /* DEMOSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOSecondViewController.m; sourceTree = "<group>"; };
+		346F46C01B47D59400513E90 /* DEMOLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOLeftMenuViewController.h; sourceTree = "<group>"; };
+		346F46C11B47D59400513E90 /* DEMOLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOLeftMenuViewController.m; sourceTree = "<group>"; };
+		346F46C21B47D59400513E90 /* DEMORightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMORightMenuViewController.h; sourceTree = "<group>"; };
+		346F46C31B47D59400513E90 /* DEMORightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMORightMenuViewController.m; sourceTree = "<group>"; };
+		346F46C91B47D5CD00513E90 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		34C90C0B1B47BC8300F6B982 /* a1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = a1.tiff; sourceTree = "<group>"; };
 		34C90C0C1B47BC8300F6B982 /* a2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = a2.tiff; sourceTree = "<group>"; };
 		34C90C0D1B47BC8300F6B982 /* a3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = a3.tiff; sourceTree = "<group>"; };
@@ -263,6 +290,7 @@
 				3447699F1B3AA65E00A4EEF0 /* DreamGroup  Tips */,
 				344769B31B3AA65E00A4EEF0 /* DreamGroup  TipsTests */,
 				3447699E1B3AA65E00A4EEF0 /* Products */,
+				34C90C7A1B47C16600F6B982 /* Framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -278,6 +306,7 @@
 		3447699F1B3AA65E00A4EEF0 /* DreamGroup  Tips */ = {
 			isa = PBXGroup;
 			children = (
+				346F46AF1B47D4BE00513E90 /* Menu */,
 				344769CD1B3AA79400A4EEF0 /* Vendors */,
 				344769CC1B3AA78300A4EEF0 /* UserInterface */,
 				344769CB1B3AA77A00A4EEF0 /* Resources */,
@@ -290,6 +319,7 @@
 				344769A71B3AA65E00A4EEF0 /* Images.xcassets */,
 				344769A91B3AA65E00A4EEF0 /* LaunchScreen.xib */,
 				344769A01B3AA65E00A4EEF0 /* Supporting Files */,
+				346F46C91B47D5CD00513E90 /* PrefixHeader.pch */,
 			);
 			path = "DreamGroup  Tips";
 			sourceTree = "<group>";
@@ -323,6 +353,8 @@
 		344769C01B3AA66B00A4EEF0 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				346F46AC1B47D4B000513E90 /* DEMOAppDelegate.h */,
+				346F46AD1B47D4B000513E90 /* DEMOAppDelegate.m */,
 				344769A41B3AA65E00A4EEF0 /* AppDelegate.h */,
 				344769A51B3AA65E00A4EEF0 /* AppDelegate.m */,
 			);
@@ -412,10 +444,47 @@
 			name = Vendors;
 			sourceTree = "<group>";
 		};
+		346F46AF1B47D4BE00513E90 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				346F46BA1B47D57F00513E90 /* Controllers */,
+				346F46B01B47D4D800513E90 /* REsideMenu */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		346F46B01B47D4D800513E90 /* REsideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				346F46B11B47D4FC00513E90 /* RECommonFunctions.h */,
+				346F46B21B47D4FC00513E90 /* RECommonFunctions.m */,
+				346F46B31B47D4FC00513E90 /* RESideMenu.h */,
+				346F46B41B47D4FC00513E90 /* RESideMenu.m */,
+				346F46B51B47D4FC00513E90 /* UIViewController+RESideMenu.h */,
+				346F46B61B47D4FC00513E90 /* UIViewController+RESideMenu.m */,
+			);
+			name = REsideMenu;
+			sourceTree = "<group>";
+		};
+		346F46BA1B47D57F00513E90 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				346F46BB1B47D59400513E90 /* 生活.jpg */,
+				346F46BC1B47D59400513E90 /* DEMOFirstViewController.h */,
+				346F46BD1B47D59400513E90 /* DEMOFirstViewController.m */,
+				346F46BE1B47D59400513E90 /* DEMOSecondViewController.h */,
+				346F46BF1B47D59400513E90 /* DEMOSecondViewController.m */,
+				346F46C01B47D59400513E90 /* DEMOLeftMenuViewController.h */,
+				346F46C11B47D59400513E90 /* DEMOLeftMenuViewController.m */,
+				346F46C21B47D59400513E90 /* DEMORightMenuViewController.h */,
+				346F46C31B47D59400513E90 /* DEMORightMenuViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		349A66171B3D359800536109 /* Diary */ = {
 			isa = PBXGroup;
 			children = (
-				34C90C7A1B47C16600F6B982 /* Framework */,
 				34C90C671B47BFEE00F6B982 /* FlipViewTest-Prefix.pch */,
 				34C90C791B47C04A00F6B982 /* Controller */,
 				34C90C781B47C03D00F6B982 /* View */,
@@ -547,6 +616,7 @@
 				34C90C7B1B47C18E00F6B982 /* UIKit.framework */,
 			);
 			name = Framework;
+			path = "DreamGroup  Tips";
 			sourceTree = "<group>";
 		};
 		34C90C831B47C31700F6B982 /* image */ = {
@@ -796,6 +866,7 @@
 				34C90C9B1B47C31700F6B982 /* soundSlider.png in Resources */,
 				34C90C4F1B47BC8300F6B982 /* g3－2.tiff in Resources */,
 				34C90C971B47C31700F6B982 /* play.png in Resources */,
+				346F46C41B47D59400513E90 /* 生活.jpg in Resources */,
 				34C90C571B47BCB300F6B982 /* x0.png in Resources */,
 				34C90C361B47BC8300F6B982 /* a8.tiff in Resources */,
 				34C90C341B47BC8300F6B982 /* a6.tiff in Resources */,
@@ -834,25 +905,33 @@
 			files = (
 				34C90C771B47BFEE00F6B982 /* ViewController.m in Sources */,
 				34C90CB71B47C3B500F6B982 /* Music.m in Sources */,
+				346F46C51B47D59400513E90 /* DEMOFirstViewController.m in Sources */,
 				34C90CC91B47C47600F6B982 /* DreamViewController.m in Sources */,
+				346F46AE1B47D4B000513E90 /* DEMOAppDelegate.m in Sources */,
+				346F46C61B47D59400513E90 /* DEMOSecondViewController.m in Sources */,
 				34C90CBC1B47C3DC00F6B982 /* MusicViewController.m in Sources */,
 				34C90CB31B47C39C00F6B982 /* DXSemiViewController.m in Sources */,
+				346F46B71B47D4FC00513E90 /* RECommonFunctions.m in Sources */,
 				34C90CC81B47C47600F6B982 /* AddDreamViewController.m in Sources */,
 				34C90CD31B47C4C200F6B982 /* Dream.m in Sources */,
 				34C90C761B47BFEE00F6B982 /* UIView+Screenshot.m in Sources */,
 				34C90CBD1B47C3DC00F6B982 /* RightViewController.m in Sources */,
 				34C90C721B47BFEE00F6B982 /* FlipScrollView.m in Sources */,
 				34C90CB41B47C39C00F6B982 /* DXSemiViewControllerCategory.m in Sources */,
+				346F46C81B47D59400513E90 /* DEMORightMenuViewController.m in Sources */,
 				34C90CB21B47C39C00F6B982 /* DXSemiTableViewController.m in Sources */,
 				34C90CCA1B47C47600F6B982 /* showDreamViewController.m in Sources */,
 				34C90C6E1B47BFEE00F6B982 /* AddNewNoteViewController.m in Sources */,
+				346F46B81B47D4FC00513E90 /* RESideMenu.m in Sources */,
 				344769A61B3AA65E00A4EEF0 /* AppDelegate.m in Sources */,
 				34C90C731B47BFEE00F6B982 /* FlipViewController.m in Sources */,
 				34C90C701B47BFEE00F6B982 /* FlipDetailViewController.m in Sources */,
 				344769A31B3AA65E00A4EEF0 /* main.m in Sources */,
 				34C90CCD1B47C49900F6B982 /* addDreamView.m in Sources */,
+				346F46B91B47D4FC00513E90 /* UIViewController+RESideMenu.m in Sources */,
 				34C90C751B47BFEE00F6B982 /* InScrollViewLayer.m in Sources */,
 				34C90CD21B47C4C200F6B982 /* DataBaseFunction2.m in Sources */,
+				346F46C71B47D59400513E90 /* DEMOLeftMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -967,6 +1046,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DreamGroup  Tips/PrefixHeader.pch";
 				INFOPLIST_FILE = "DreamGroup  Tips/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -978,6 +1058,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DreamGroup  Tips/PrefixHeader.pch";
 				INFOPLIST_FILE = "DreamGroup  Tips/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
